@@ -1,6 +1,4 @@
-let width = prompt ("Nhập chiều rộng:");
-let height = prompt ("Nhập chiều dài");
-let Width = parseInt ('width');
-let Height = parseInt ('height');
+let Width = Number (prompt ("Nhập chiều rộng:"));
+let Height = Number (prompt ("Nhập chiều dài"));
 let area = Width * Height ;
 document.write("The area is: " + area);
